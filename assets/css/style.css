@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+Body {
+    background-image: linear-gradient(to right, rgb(37, 163, 172), rgb(32, 143, 28));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha {
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid white;
+}
+
+section {
+    background: white;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    font-size: 1em;
+    width: 70%;
+    padding: 5px;
+    outline-color:rgb(75, 80, 80);
+}
+
+input:focus-visible {
+    background-color: rgb(150, 221, 153);
+    outline:1px solid rgb(160, 159, 165);
+    border: 1px solid grey;
+}
+
+button.btn-adicionar {
+    background-color: rgb(76, 175, 76);
+    padding: 9.5px 0;
+    width: 28%;
+    border: none;
+}
+
+button.btn-adicionar:hover {
+    background-color: rgb(62, 153, 62);
+}
+
+button.btn-adicionar:active {
+    background-color: rgb(27, 121, 97);
+}
+
+section > div {
+    border: 1px solid rgb(132, 148, 144);
+    padding: 8px;
+    margin: 5px 0;
+}
+
+section > div > button.btn-apagar {
+    background-color: rgb(76, 175, 76);
+    border: none;
+    padding: 3px;
+    float: right;
+    font-size: 0.8em;
+    border-radius: 1px;
+}
+
+section > div > button.btn-apagar:hover {
+    background-color: rgb(64, 145, 64);
+}
+
+section > div > button.btn-apagar:active {
+    background-color: rgb(64, 145, 107);
+}
